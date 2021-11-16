@@ -1,0 +1,20 @@
+@tailwind components;
+
+@layer components {
+    .homeNav {
+        @apply cursor-pointer hover:text-blue-300 transition-transform duration-150
+    }
+
+    .createCourseInput {
+        @apply outline-none font-thin border-b-[1px] focus:border-yellow-500
+    }
+
+    .createCourseLabel {
+        @apply py-1 px-2 text-yellow-400 border-yellow-400 border-[1px] rounded-lg
+    }
+
+    .createCourseBlock {
+        @apply flex space-x-2 font-normal items-center
+    }
+}
+ 
