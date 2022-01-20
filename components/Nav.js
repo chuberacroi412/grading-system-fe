@@ -28,8 +28,7 @@ export default function Nav({isTransparent}) {
             <p className='homeNav' onClick={() => router.push('/account')}>Account</p>
             <p className='homeNav' onClick={() => router.push('/workspace')}>Workspace</p>
             <p className='flex-1 homeNav' onClick={() => router.push('/advances')}>Advances</p>
-            <p className='homeNav' onClick={() => router.push('/signIn')}>Sign in</p>
-            <p className='homeNav' onClick={() => router.push('/signUp')}>Sign up</p>
+            <p className='homeNav' onClick={() => router.reload('/')}>Sign out</p>
         </div>
     )
 }

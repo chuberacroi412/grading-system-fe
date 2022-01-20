@@ -18,7 +18,7 @@ export default function Workspace(){
             if(module.name == 'Workspace' && module.active == true)
                 modueExcept = true
         });
-        console.log('it is false')
+
         return modueExcept
     }
     return (

@@ -11,8 +11,6 @@ export default function Home() {
   const [{user, access_module}, dispatch] = useStateValue()
   return (   
     <>
-     {console.log(user)}
-     {console.log(access_module)}
     {!user ? <SignIn/>: 
     <div className="w-full">
     <Head>

@@ -14,7 +14,6 @@ export default function SignUp() {
 
     async function signUp(e) {
         e.preventDefault()  
-        alert('yes')
         const body = JSON.stringify({
             "firstName": firstNameRef.current.value,
             "lastName": lastNameRef.current.value,

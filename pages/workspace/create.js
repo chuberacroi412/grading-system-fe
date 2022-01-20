@@ -101,13 +101,12 @@ export default function Create() {
             setSumError(true)
             return
         }
-           
-        console.log(token)
+
 
         const body = JSON.stringify({
             "name": name,
             "code": code,
-            "createdName" : user.id,
+            "createdBy" : user.id,
             "yearStart":yearStart,
             "yearEnd":yearEnd,
             "size":+size,
